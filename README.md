@@ -14,17 +14,23 @@ Visualize the electric signal emitted with given bits and different codes (Manch
 ## Examples
 
 Example bits : 0100011001
+
 - NRZ
+
 ![NRZ](res/SV_NRZ.png)
 
 - NRZI
+
 ![NRZI](res/SV_NRZI.png)
 
 - Manchester
+
 ![Manchester](res/SV_Man.png)
 
 - Differential Manchester
+
 ![Differential Manchester](res/SV_ManDIF.png)
 
 - Miller
+
 ![Miller](res/SV_MILLER.png)
