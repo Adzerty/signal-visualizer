@@ -47,7 +47,7 @@ public class Fenetre extends JFrame implements KeyListener, ActionListener{
 	}
 	
 	private void initFrame() {
-		this.setTitle("TP1 - Réseaux - Adrien PESTEL");
+		this.setTitle("signal-visualizer");
 		this.setLocationRelativeTo(null);
 		this.setSize(500,500);
 	
