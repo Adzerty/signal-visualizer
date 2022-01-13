@@ -68,6 +68,10 @@ public class PanelSignal extends JPanel {
 		for(int i = 0; i<3; i++) {
 			g2d.drawLine(0, (i * HEIGHT/2), f.getWidth(), (i * HEIGHT/2));
 		}
+
+		g2d.drawString("nV", 5, 0 + 15);
+		g2d.drawString("0V", 5, HEIGHT/2 - 2);
+		g2d.drawString("-nV", 5, HEIGHT - 5);
 		
 		drawSignal(g2d, wSD);
 		drawBits(g2d, wSD);
